@@ -29,7 +29,7 @@ print(math.pi)
 # KeyError
 my_dict = {"Nombre": "Brais", "Apellido": "Moure", "Edad": 35, 1: "Python"}
 print(my_dict["Edad"])
-# print(my_dict["Apelido"]) # Descomentar para Error
+#print(my_dict["Apelido"]) # Descomentar para Error
 print(my_dict["Apellido"])
 
 # TypeError
