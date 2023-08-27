@@ -3,4 +3,3 @@ Mi apellido es Moure
 35 años
 Y mi lenguaje preferido es Python
 Aunque también me gusta Kotlin
-Y Swift

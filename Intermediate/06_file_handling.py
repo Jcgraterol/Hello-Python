@@ -11,7 +11,10 @@ import os
 
 # Leer, escribir y sobrescribir si ya existe
 txt_file = open("Intermediate/my_file.txt", "w+")
+print(txt_file.read())
 
+
+""""
 txt_file.write(
     "Mi nombre es Brais\nMi apellido es Moure\n35 años\nY mi lenguaje preferido es Python")
 
@@ -81,3 +84,5 @@ with open("Intermediate/my_file.csv") as my_other_file:
 # .xml file
 
 # ¿Te atreves a practicar cómo trabajar con este tipo de ficheros?
+
+"""
