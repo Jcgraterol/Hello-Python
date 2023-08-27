@@ -1,11 +1,11 @@
 {
-  "name": "Brais",
-  "surname": "Moure",
-  "age": 35,
+  "name": "Julio",
+  "surname": "Graterol",
+  "age": 40,
   "languages": [
     "Python",
-    "Swift",
-    "Kotlin"
+    "JS",
+    "CSS"
   ],
-  "website": "https://moure.dev"
+  "website": "https://goodnaturallife.com"
 }
