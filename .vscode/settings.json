@@ -4,6 +4,13 @@
     "python.testing.pytestArgs": [
         "Basic"
     ],
-    "python.testing.unittestEnabled": false,
-    "python.testing.pytestEnabled": true
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Intermediate",
+        "-p",
+        "*test.py"
+    ]
 }
