@@ -4,10 +4,10 @@
 
 # Documentación oficial: https://fastapi.tiangolo.com/es/
 
-# Instala FastAPI: pip install "fastapi[all]"
+# Instala FastAPI: pip3 install "fastapi[all]"
 
 from fastapi import FastAPI
-from routers import products, users, basic_auth_users, jwt_auth_users, users_db
+from router import products, users, basic_auth_users, jwt_auth_users, users_db
 from fastapi.staticfiles import StaticFiles
 
 app = FastAPI()
