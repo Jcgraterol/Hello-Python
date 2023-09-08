@@ -18,8 +18,7 @@ db_client = MongoClient().local
 # Clase en vídeo: https://youtu.be/_y9qQZXE24A?t=25470
 
 # Base de datos remota MongoDB Atlas (https://mongodb.com)
-# db_client = MongoClient(
-#     "mongodb+srv://<user>:<password>@<url>/?retryWrites=true&w=majority").test
+# db_client = MongoClient("mongodb+srv://<user>:<password>@<url>/?retryWrites=true&w=majority").test
 
 # Despliegue API en la nube:
 # Deta - https://www.deta.sh/
