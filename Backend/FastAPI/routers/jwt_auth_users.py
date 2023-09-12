@@ -21,7 +21,6 @@ oauth2 = OAuth2PasswordBearer(tokenUrl="login")
 
 crypt = CryptContext(schemes=["bcrypt"])
 
-
 class User(BaseModel):
     username: str
     full_name: str
@@ -49,7 +48,6 @@ users_db = {
         "password": "$2a$12$SduE7dE.i3/ygwd0Kol8bOFvEABaoOOlC8JsCSr6wpwB4zl5STU4S"
     }
 }
-
 
 def search_user_db(username: str):
     if username in users_db:
